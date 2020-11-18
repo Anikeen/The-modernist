@@ -1,0 +1,30 @@
+@media screen and (max-width: 700px) {    
+  .slide__description{
+      padding: 0;
+  }
+  .slide__title {
+      font-size: 1.875em;
+      line-height: 2rem;
+  }
+  .slide__text {
+      margin: 10px 0;
+      font-size: .75em;
+  }      
+  .services__elem {
+      width: 100%;
+  }
+  .works__elem {
+      width: 100%;
+  }
+  .footer-block {
+      width: 100%;
+      margin-bottom: 30px;
+  }
+  .contact-form {
+      width: 300px;
+  }
+  .copyright {
+      flex-direction: column;
+      text-align: center;
+  }
+}

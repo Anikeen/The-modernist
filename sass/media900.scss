@@ -1,0 +1,48 @@
+@media screen and (max-width:900px) {  
+  .navigation{
+      display: block;
+      position: absolute;
+      top: 100%;
+      right: -20px;
+      z-index: 10;
+      padding: 0 120px;
+      background: #290000;
+      text-align: right;
+      width: 100%;
+      height: 0;        
+      overflow: hidden;
+      transition: height .5s ease-out;
+      &__link {
+        &:hover {
+          background-color: inherit;
+        }
+      }
+  }
+  .menu-toggle {
+      display: block;        
+  }
+  .slide {
+      flex-wrap: wrap;
+      justify-content: center;        
+  }
+  .slide__description {
+      width: 80%;
+      padding: 0;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .slide__image {
+    width: 80%;
+}
+  .services__elem {
+      width: 50%;
+      margin-bottom: 20px;
+  }
+  .works__elem {
+      width: 50%;
+  }
+  .footer-block {
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}

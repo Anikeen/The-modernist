@@ -1,0 +1,45 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 120px;
+  &__elem {
+    width: 25%;
+    padding: 0 10px;
+  }
+}
+.service-card {
+  color: #333;
+  text-align: center;
+  background-color: #fff;
+  transition: background-color .2s, color .2s;
+  &:hover {
+    background: #76c38f;
+    color: #fff;
+    & .service-card__text {
+      color: #fff;
+    }
+  }
+  &__img {
+    display: block;
+    width: 120px;
+    height: 160px;
+    padding: 20px 0;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  &__title {
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+  &__text {
+    padding: 25px 30px;
+    font-size: .875em;
+    color: #979797;
+    transition: color .2s; 
+  }
+  &__link {
+    color: inherit;
+  }
+}
